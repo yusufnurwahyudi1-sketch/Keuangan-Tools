@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-secondary-fixed-dim: #34d399;
+  --color-on-secondary: #ffffff;
+  --color-on-surface: #ffffff;
+  --color-on-secondary-fixed-variant: #059669;
+  --color-secondary: #10b981;
+  --color-inverse-on-surface: #0a0a0b;
+  --color-on-tertiary-fixed: #f87171;
+  --color-primary-container: rgba(59, 130, 246, 0.1);
+  --color-on-secondary-fixed: #052e16;
+  --color-tertiary-fixed: rgba(248, 113, 113, 0.1);
+  --color-on-primary: #ffffff;
+  --color-tertiary-fixed-dim: #ef4444;
+  --color-error: #f87171;
+  --color-primary-fixed: #3b82f6;
+  --color-tertiary-container: rgba(248, 113, 113, 0.1);
+  --color-background: #0a0a0b;
+  --color-secondary-container: rgba(52, 211, 153, 0.1);
+  --color-inverse-primary: #1e3a8a;
+  --color-surface-container-high: rgba(255, 255, 255, 0.1);
+  --color-on-primary-fixed-variant: #60a5fa;
+  --color-surface-container-highest: rgba(255, 255, 255, 0.15);
+  --color-on-primary-container: #60a5fa;
+  --color-on-primary-fixed: #ffffff;
+  --color-surface: #0e0e10;
+  --color-secondary-fixed: #34d399;
+  --color-surface-variant: rgba(255, 255, 255, 0.05);
+  --color-on-surface-variant: #94a3b8;
+  --color-on-secondary-container: #34d399;
+  --color-surface-bright: #161618;
+  --color-inverse-surface: #e2e8f0;
+  --color-tertiary: #f87171;
+  --color-primary: #3b82f6;
+  --color-on-tertiary-fixed-variant: #991b1b;
+  --color-surface-container-low: rgba(255, 255, 255, 0.02);
+  --color-surface-dim: #64748b;
+  --color-outline-variant: rgba(255, 255, 255, 0.05);
+  --color-error-container: rgba(248, 113, 113, 0.1);
+  --color-surface-container-lowest: #161618;
+  --color-surface-container: #1c1c1e;
+  --color-on-error-container: #f87171;
+  --color-on-error: #ffffff;
+  --color-surface-tint: #475569;
+  --color-outline: rgba(255, 255, 255, 0.1);
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #f87171;
+  --color-primary-fixed-dim: #2563eb;
+  --color-on-background: #cbd5e1;
+
+  --shadow-soft: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-card: 0px 12px 32px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  color-scheme: dark;
+}
